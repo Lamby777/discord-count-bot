@@ -9,10 +9,9 @@ n = int(input())
 sleep(3)
 
 while True:
-	auto.typewrite(str(n))
+	auto.typewrite(str(n) + " >> ")
 	sleep(0.95 * DELAY)
 
 	auto.press("enter")
 	n += 1
 	sleep(0.05 * DELAY)
-

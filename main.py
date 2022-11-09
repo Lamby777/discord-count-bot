@@ -1,7 +1,7 @@
 from time import sleep
 import pyautogui as auto
 
-DELAY = 0.04
+DELAY = 0.5
 
 print("Starting number?")
 n = int(input())
